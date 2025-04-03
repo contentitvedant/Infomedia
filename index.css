@@ -1,0 +1,104 @@
+/* Importing Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ojuju:wght@200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* Global Styles */
+* {
+  font-family: "Raleway", sans-serif; /* Setting the default font */
+  line-height: 150%; /* Adjusting line height for better readability */
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; /* Ensures padding and border do not affect total width/height */
+}
+
+/* Header Section */
+header {
+  background-color: #333333; /* Dark background color */
+  padding: 20px; /* Adding padding */
+}
+
+/* Logo Container */
+.logo-container {
+  float: left; /* Aligning logo to the left */
+  margin-right: 20px; /* Adding spacing between logo and title */
+}
+
+/* Logo Styling */
+.logo {
+  width: 150px; /* Setting width */
+  height: auto; /* Maintaining aspect ratio */
+  margin-left: 100px; /* Shifting logo to the right */
+  border-right: 1px solid white; /* Adding a border to the right */
+  padding: 20px; /* Padding inside the logo container */
+}
+
+/* Website Title */
+.website-title {
+  font-size: 40px; /* Increasing font size */
+  font-weight: bold; /* Making text bold */
+  color: #f4eeee; /* Setting text color */
+  padding: 25px; /* Adding padding */
+  margin-left: 900px; /* Positioning title towards the right */
+  margin-bottom: 10px; /* Adding bottom margin */
+  border-top: 2px solid rgb(227, 227, 227); /* Adding a top border */
+  border-bottom: 2px solid rgb(227, 227, 227); /* Adding a bottom border */
+}
+
+/* Headings */
+h2 {
+  text-indent: 50px; /* Indenting text */
+  background-color: rgb(17, 14, 15); /* Dark background */
+  color: #f4eeee; /* Light text color */
+}
+
+/* Article Title */
+.article-1 {
+  background-color: #d5d1d1; /* Light grey background */
+  text-align: center; /* Centering text */
+}
+
+/* Paragraph Styling */
+p {
+  text-indent: 30px; /* Indenting paragraph text */
+}
+
+/* More Information Section */
+.more-Info {
+  background-color: #ded9d9; /* Light grey background */
+  padding: 50px; /* Adding padding */
+}
+
+/* Summary Section */
+.Summary {
+  padding: 30px; /* Adding padding */
+}
+
+/* Introduction Section */
+.introduction {
+  padding: 30px; /* Adding padding */
+}
+
+/* Sidebar Section */
+aside {
+  position: relative; /* Positioning */
+  float: left; /* Aligning sidebar to the left */
+  margin-right: 20px; /* Adding right margin */
+  margin-top: 10px; /* Adding top margin */
+  background-color: rgb(249, 246, 246); /* Light background */
+  color: #333333; /* Dark text */
+  border-right: solid 10px rgb(39, 38, 38); /* Right border */
+  border-left: solid 10px rgb(39, 38, 38); /* Left border */
+  padding: 30px; /* Padding inside sidebar */
+  border-radius: 10px; /* Rounded corners */
+  margin-bottom: 35px; /* Adding bottom margin */
+  text-align: center; /* Center-aligning text */
+}
+
+/* Article Section */
+article {
+  clear: right; /* Ensuring it does not overlap with floated elements */
+}
+
+/* Image Container */
+.image-container {
+  padding: 50px; /* Adding padding */
+}
